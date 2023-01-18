@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(int argc, char** agrc) {
+int main() {
   
 cout<<"*****"<<endl;
 cout<<"   *"<<endl;
