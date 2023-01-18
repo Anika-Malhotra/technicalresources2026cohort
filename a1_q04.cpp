@@ -3,7 +3,13 @@ using namespace std;
 int main(){
     int low; 
     int high;
-        for(int n = low;n<=high; n++){
+    cout<<"Enter lower limit";
+    cin>>low;
+    cout<<endl;
+    cout<<"Enter upper limit";
+    cin>>high;
+    cout<<endl;       
+    for(int n = low;n<=high; n++){
         int factors = 0;
         for(int div = 2; div * div <=n; div++){
             if(n % div == 0){
